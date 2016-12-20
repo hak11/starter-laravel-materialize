@@ -8,7 +8,7 @@
 @include('layouts.partials.meta')
 @include('layouts.partials.htmlheader')
 <body>
-<div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+<div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
     @include('layouts.partials.main-header')
     <main class="mdl-layout__content mdl-color--grey-100">
         <div class="mdl-grid demo-content">
@@ -16,7 +16,6 @@
         </div>
     </main>
 </div>
-
 @include('layouts.partials.scripts')
 </body>
 </html>
