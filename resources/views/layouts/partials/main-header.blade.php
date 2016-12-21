@@ -1,4 +1,4 @@
-    <header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
+    <header class="starter-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
         <div class="mdl-layout__header-row">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
                 <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
@@ -36,10 +36,10 @@
         </div>
     </header>
 
-    <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
-        <header class="demo-drawer-header">
-            <img src="{{'/images/user.jpg'}}" class="demo-avatar">
-            <div class="demo-avatar-dropdown">
+    <div class="starter-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+        <header class="starter-drawer-header">
+            <img src="{{'/images/user.jpg'}}" class="starter-avatar">
+            <div class="starter-avatar-dropdown">
                 <span>hello@example.com</span>
                 <div class="mdl-layout-spacer"></div>
                 <button id="accbtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
