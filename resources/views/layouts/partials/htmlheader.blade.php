@@ -4,5 +4,4 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="{{ asset('/mdl/material.min.css') }}">
 <link rel="stylesheet" href="{{ asset('/mdl/dashboard.css') }}">
-<link rel="stylesheet" href="{{ asset('/mdl/portofolio.css') }}">
-{{--<script src="{{ asset('/materialize/js/jquery.js') }}"></script>--}}
+<script src="{{ asset('/js/jquery.js') }}"></script>

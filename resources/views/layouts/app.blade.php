@@ -15,7 +15,10 @@
             @yield('main-content')
         </div>
     </main>
+    @include('layouts.partials.main-footer')
+
 </div>
 @include('layouts.partials.scripts')
 </body>
+
 </html>

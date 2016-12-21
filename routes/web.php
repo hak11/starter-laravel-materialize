@@ -15,4 +15,16 @@ Route::get('/', function () {
     return view('content.main');
 });
 
+Route::get('/card', function () {
+    return view('content.card');
+});
+
+Route::get('/dialog', function () {
+    return view('content.dialog');
+});
+
+Route::get('/layout', function () {
+    return view('content.layout');
+});
+
 Auth::routes();

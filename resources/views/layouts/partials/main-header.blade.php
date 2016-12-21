@@ -1,6 +1,5 @@
     <header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
         <div class="mdl-layout__header-row">
-            <div class="mdl-layout-spacer"></div>
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
                 <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
                     <i class="material-icons">search</i>
@@ -10,13 +9,29 @@
                     <label class="mdl-textfield__label" for="search">Enter your query...</label>
                 </div>
             </div>
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
-                <i class="material-icons">more_vert</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
+            <div class="mdl-layout-spacer"></div>
+
+            <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="2" style="cursor: pointer" id="mssg">message</div>
+            <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="mssg">
                 <li class="mdl-menu__item">About</li>
                 <li class="mdl-menu__item">Contact</li>
                 <li class="mdl-menu__item">Legal information</li>
+            </ul>
+
+            <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="4" style="cursor: pointer" id="notif">notifications</div>
+            <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="notif">
+                <li class="mdl-menu__item">About</li>
+                <li class="mdl-menu__item">Contact</li>
+                <li class="mdl-menu__item">Legal information</li>
+            </ul>
+
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-menu--bottom-right mdl-button--icon" id="hdrbtn">
+                <i class="material-icons">more_vert</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
+                <li class="mdl-menu__item">Login</li>
+                <li class="mdl-menu__item">Register</li>
+                <li class="mdl-menu__item">Logout</li>
             </ul>
         </div>
     </header>
