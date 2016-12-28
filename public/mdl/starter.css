@@ -176,3 +176,7 @@ _:-ms-input-placeholder, :root .starter-graph {
   box-sizing: border-box;
   align-items: center;
 }
+
+.mdl-mini-footer{
+  padding: 15px 20px;
+}
